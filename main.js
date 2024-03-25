@@ -1,18 +1,25 @@
 const botoes = document.querySelectorAll(".botao");
-
-for(let i=0;i <botoes.length;j++){                   
+const textos = document.querySelectorAll(".aba-conteudo");
+for(let i=0;i <botoes.length;i++) {                   
    botoes[i].onclick = function(){
 
          for(let j=0;j<botoes.length;j++){
-            botoes[j].classList.remove("ativo")
+            botoes[j].classList.remove("ativo");
+         textos[j].classList.remove("ativo");
          }
-
          botoes[i].classList.add("ativo");
+         textos[i].classList.add("ativo");
    }
 }
 
 const contadores = document.querySelectorAll(".contador");
-const tempoObjetivol = new Date ("2023-10-05T00:00:00");
-let tempoAtual = new Date ();
+const tempoobjetivo1 = new Date ("2020-10-05T00:00:00");
+const tempoobjetivo2 = new Date ("2023-10-05T00:00:00");
+const tempoobjetivo3 = new Date ("2023-10-05T00:00:00");
+const tempoobjetivo4 = new Date ("2024-10-05T00:00:00");
 
-contadores [0].textContent = tempoObjetivol - tempoAtual
+
+const tempos = [tempoobjetivo1,tempoobjetivo2,tempoobjetivo3,tempoobjetivo4];
+
+function calculaTempo(tempoobjetivo) {s}
+let tempoAtual = new Date();
