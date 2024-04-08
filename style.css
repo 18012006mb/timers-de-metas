@@ -1,4 +1,4 @@
-s:root {
+:root {
 
 --cor-de-fundo: #ffffff;
 --verde: #6FFF57;
@@ -15,7 +15,7 @@ body {
     font-style: 'Chakra petch', sans-serif;
 }
 
-.conteuo-principal {
+.conteudo-principal {
 
     display: flex;
     flex-direction: column;
